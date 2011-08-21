@@ -35,7 +35,6 @@ public:
 private:
     // members
     QDir dirForCrawling;
-    QStack<QString> dirsCrawled;
 
     // functions
     QString hashFileUsingSha1(QString filePath);
