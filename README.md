@@ -55,4 +55,4 @@ sha1crawler is licensed under the [GNU General Public License v3.0](http://www.g
 ###Comments or suggestions?
 Feel free to contact me with bug reports, feature requests and general comments by emailing [marc.ransome@fidgetbox.co.uk](marc.ransome@fidgetbox.co.uk).
 
-Follow [@marcransome](http://www.twitter.com/fidgetbox) on Twitter for the latest news.
+Follow [@marcransome](http://www.twitter.com/marcransome) on Twitter for the latest news.
