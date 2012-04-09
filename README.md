@@ -1,7 +1,7 @@
 #sha1crawler
 
 ##Overview
-**sha1crawler** is a simple [Qt](http://qt.nokia.com/products/)-based example of a command-line tool for generating [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for files within a given directory structure.
+**sha1crawler** is a simple [Qt](http://qt.nokia.com/products/)-based example command-line tool for generating [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for files within a given directory structure.
 
 It generates a single `sha1` file for **each** subdirectory, starting from a base target directory, that contains the name and hash of each file within that same directory.
 
@@ -53,6 +53,6 @@ _Warning: this will permanently delete all files matching the -name parameter ('
 sha1crawler is licensed under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl.html).
 
 ###Comments or suggestions?
-Feel free to contact me with bug reports, feature requests and general comments by emailing [sha1crawler@fidgetbox.co.uk](sha1crawler@fidgetbox.co.uk).
+Feel free to contact me with bug reports, feature requests and general comments by emailing [marc.ransome@fidgetbox.co.uk](marc.ransome@fidgetbox.co.uk).
 
 Follow [@marcransome](http://www.twitter.com/fidgetbox) on Twitter for the latest news.
