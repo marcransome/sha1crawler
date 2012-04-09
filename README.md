@@ -17,7 +17,7 @@ Basic usage example:
 
 	[host:~]% sha1crawler target_dir
 	
-A file named `sha1` will be created in the target directory (and in each subdirectory) if that same directory contains one or more files.
+A file named `sha1` will be created in the target directory (and in each subdirectory, including symlinked directories) if that same directory contains one or more files.
 
 Each `sha1` file will contain the name and SHA-1 hash of each file within the same directory, separated by a colon.  For example, for a directory containing the files `file1`, `file2`, and `file3` the output contained in the `sha1` file might be:
 
