@@ -1,12 +1,12 @@
 #sha1crawler
 
 ##Overview
-**sha1crawler** is a simple [Qt](http://qt.nokia.com/products/)-based example command-line tool for generating [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for files within a given directory structure.
+**sha1crawler** is a simple [Qt](http://qt-project.org)-based example command-line tool for generating [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for files within a given directory structure.
 
 It generates a single `sha1` file for **each** subdirectory, starting from a base target directory, that contains the name and hash of each file within that same directory.
 
 ###Installation
-sha1crawler can be built using the [Qt SDK](http://qt.nokia.com/products/qt-sdk).  A project file (Sha1Crawler.pro) is provided for convenience.
+sha1crawler can be built using the [Qt SDK](http://qt-project.org/downloads).  A project file (Sha1Crawler.pro) is provided for convenience.
 
 Once compiled, the program can be executed directly from the command-line (with suitable execute permissions) or placed within a location contained in your PATH environment variable.
 
