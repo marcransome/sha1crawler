@@ -1,16 +1,16 @@
-#sha1crawler
+# sha1crawler
 
-##Overview
+## Overview
 **sha1crawler** is a simple [Qt](http://qt-project.org)-based example command-line tool for generating [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for files within a given directory structure.
 
 It generates a single `sha1` file for **each** subdirectory, starting from a base target directory, that contains the name and hash of each file within that same directory.
 
-###Installation
+### Installation
 sha1crawler can be built using the [Qt SDK](http://qt-project.org/downloads).  A project file (Sha1Crawler.pro) is provided for convenience.
 
 Once compiled, the program can be executed directly from the command-line (with suitable execute permissions) or placed within a location contained in your PATH environment variable.
 
-###Usage
+### Usage
 A single command-line argument to the base target directory is required to start the crawling process.
 
 Basic usage example:  
@@ -42,17 +42,17 @@ If the files in the directory tree are changed at any time, you can re-run the p
  		 	+ adding hash for /Users/fidget/basedir/file2
 		Success.
 
-###Cleanup
+### Cleanup
 If you need to remove the `sha1` files from a directory tree, use the following command at the shell prompt, replacing _target_path_ with the base directory path from which to start the removal process:  
 
 	find target_dir -name sha1 -exec rm {} \;
 
 _Warning: this will permanently delete all files matching the -name parameter ('sha1' in the example above) from the target_dir directory and any subdirectories in which the file exists.  Use with care._
 
-###License
+### License
 sha1crawler is licensed under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl.html).
 
-###Comments or suggestions?
+### Comments or suggestions?
 Feel free to contact me with bug reports, feature requests and general comments by emailing [marc.ransome@fidgetbox.co.uk](marc.ransome@fidgetbox.co.uk).
 
 Follow [@marcransome](http://www.twitter.com/marcransome) on Twitter for the latest news.
