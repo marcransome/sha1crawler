@@ -53,5 +53,5 @@ _Warning: this will permanently delete all files matching the -name parameter ('
 sha1crawler is licensed under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl.html).
 
 ## Contact
-Email me at [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) or tweet [@marcransome](http://www.twitter.com/marcransome).
+Email me at [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) or [create an issue](https://github.com/marcransome/sha1crawler/issues).
 
